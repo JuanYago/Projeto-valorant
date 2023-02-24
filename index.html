@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/Desafie seus limites __ Trailer de Gameplay - VALORANT será lançado em 2 de Junho.mp4">
+        </video>
+    </div>
+    <header class="cabecalho">
+        <a href="#">
+            <img class="logo" src="./src/images/logo-valorant.png" alt="logo-valorant">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informaçoes">
+            <img class="imagem-titulo" src="./src/images/V_Logotype_Red-removebg-preview.png" alt="titulo-valorant">
+            <p class="descriçao">Valorant é um jogo eletrônico multijogador gratuito para jogar de tiro em primeira
+                pessoa desenvolvido e publicado pela Riot Games. É o primeiro jogo do gênero desenvolvido pela
+                empresa,sendo anunciado pela primeira vez com o codinome Project A em outubro de 2019, em um evento de
+                comemoração de 10 anos de League of Legends. Foi lançado em 2 de junho de 2020 para Microsoft Windows.
+            </p>
+            <button id="button" class="botao-trailer">Veja o trailer</button>
+        </div>
+        <img class="valorant" src="./src/images/personagens-valorant-removebg-preview.png" alt="personagens-valorant">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/h1Kp9x_ADZw" title="Trailer oficial" frameborder= "1"
+                allow="accelerometer; autoplay; clipboard-white; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+
+
+</body>
+
+</html>
+
+<script src="./src/js/index.js"></script>
